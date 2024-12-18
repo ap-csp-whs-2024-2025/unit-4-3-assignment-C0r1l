@@ -68,10 +68,23 @@ int main()
             else
             {
               if (user_input == 5)
+              {
               std::cout << "Enter a number \n";
               std::cin >> num1 ;
-              std::cout << "The square root is " << sqrt(num1) << std::endl;
+              std::cout << "The square root is " << sqrt(num1) << std::endl;  
+              }
+              else
+              {
+                
+                if 
+
+              }
+              
+              
             }
+            
+           
+            
           }
         }
       }
