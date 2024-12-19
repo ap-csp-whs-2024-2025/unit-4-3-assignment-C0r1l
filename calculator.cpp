@@ -62,7 +62,8 @@ int main()
             if (user_input == 4)
             {
               std::cout << "Enter two numbers \n";
-              std::cin >> num1 >> num2;
+              std::cin >> numerator >> denominator;
+              
               std::cout << "Their quotient is " <<(num1 / num2) << std::endl;
             }
             else
@@ -72,11 +73,22 @@ int main()
               std::cout << "Enter a number \n";
               std::cin >> num1 ;
               std::cout << "The square root is " << sqrt(num1) << std::endl;  
+                    if (num1 < 1)
+                    {
+                      std::cout << "Error, cannot compute square root of negative number";
+                    }
+                    else
+                    {
+                      std::cout << "The square root is " << sqrt(num1) << std::endl;
+                    }
               }
               else
               {
                 
-                if 
+                if (user_input == 9)
+              {
+                std::cout << "Ok bye bye! \n";
+              }
 
               }
               
